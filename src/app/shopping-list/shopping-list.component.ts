@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+import { ShoppingListService } from '../shopping-list.service';
 import { ListItem } from '../list-item';
 
 @Component({
@@ -10,9 +11,13 @@ import { ListItem } from '../list-item';
 export class ShoppingListComponent implements OnInit {
   items: ListItem[] = [];
   item = new ListItem('Eric', 2);
-  constructor() { }
+  constructor(private shopping: ShoppingListService) { }
 
   ngOnInit() {
+  }
+
+  addItem () {
+
   }
 
 }
