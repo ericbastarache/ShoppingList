@@ -1,0 +1,20 @@
+li.item {
+  margin: 0 auto;
+  width: 600px;
+  border-bottom: 1px dashed #a9a9a9;
+  font-size: 20px;
+}
+
+li.item:hover {
+  cursor: pointer;
+}
+
+li.item > a {
+  text-decoration: none;
+  color: #000;
+}
+
+li.item > a > span.quantity {
+  font-size: 18px;
+  font-weight: bold;
+}
