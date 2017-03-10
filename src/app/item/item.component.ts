@@ -12,6 +12,10 @@ export class ItemComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+  }
+
+  completeItem () {
     
   }
 
